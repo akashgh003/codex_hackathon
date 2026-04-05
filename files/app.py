@@ -1074,7 +1074,7 @@ def render_home() -> None:
     alignment = summarize_alignment(data_df, target_df)
 
     try:
-        with open(r"C:\Users\AkashGhosh\Downloads\files (3)\racoon-removebg-preview.png", "rb") as img_f:
+        with open(r"D:\files (3)\racoon-removebg-preview.png", "rb") as img_f:
             b64_logo = base64.b64encode(img_f.read()).decode("utf-8")
             logo_src = f"data:image/png;base64,{b64_logo}"
     except Exception:
